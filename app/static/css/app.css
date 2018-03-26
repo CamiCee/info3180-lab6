@@ -5,3 +5,62 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.top
+{
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-top-color: #32CD32;
+    border-left-color:  white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-radius: 5px;
+    /*margin-right: 20%;
+    margin-left: 20%;*/
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    min-height:100px;
+    min-width: 100px;
+    width:300px;
+    height: 443px;
+    display: inline-block;
+    margin-bottom: 20px;
+    grid-template-columns: 200px, 200px, 200px; 
+}
+
+img
+{
+   
+    height: 120px;
+    width: 190px;
+    min-width: 100px;
+    position: relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.desc
+{
+    font-size: small;
+}
+
+.heading
+{
+    font-weight: bold;
+}
+
+ol
+{
+    float: left;
+}
+
+/*
+ `<div class="news">
+              <h2>News</h2>
+              <ul class="news__list">
+               <li v-for="article in articles"class="news__item"><div class="top"><p class="heading">{{ article.title }}</p><p></p><img :src='article.urlToImage '><p></p> <p class="desc">{{ article.description }}</p></div><br></li>
+               
+              </ul>
+        </div>`*/
